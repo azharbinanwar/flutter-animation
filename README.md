@@ -1,16 +1,40 @@
-# flutter_animations
+# Flutter animations
 
-A new Flutter project.
+Here's a simple README file with the provided command setup:
 
-## Getting Started
+# Flutter Project Setup
 
-This project is a starting point for a Flutter application.
+### Initial Setup
 
-A few resources to get you started if this is your first Flutter project:
+1. Clean and get dependencies:
+ ```
+flutter clean
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Run build runner:
+```
+flutter pub run build_runner build --delete-conflicting-outputs
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Run build runner with watch:
+
+```
+flutter pub run build_runner watch build --delete-conflicting-outputs
+```
+
+## Run project
+
+- To run project
+```
+flutter run
+```
+
+## Build Commands
+
+- To create a release build:
+```
+flutter build apk --release
+```
+
+Feel free to customize and expand upon this setup as needed for your Flutter project.
