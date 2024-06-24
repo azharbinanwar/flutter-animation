@@ -35,7 +35,7 @@ class HomeAppBar extends StatelessWidget {
                       const SizedBox(width: 10.0),
                       Flexible(
                         child: Text(
-                          'Lagos, Nigeria',
+                          'Lahore, Pakistan',
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: context.bodyLarge.copyWith(fontWeight: FontWeight.bold),
@@ -57,8 +57,7 @@ class HomeAppBar extends StatelessWidget {
                   backgroundColor: context.primary.withOpacity(0.3),
                   child: AppImage.svg(Assets.svgs.person, color: context.onPrimary),
                 ),
-                imageUrl:
-                    'https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.webp?b=1&s=170667a&w=0&k=20&c=TXCiY7rYEvIBd6ibj2bE-VbJu0rRGy3MlHwxt2LHt9w=',
+                imageUrl: 'https://lh3.googleusercontent.com/a/ACg8ocK8Fz3JefIDQ3E9qR0fIy9XX4dV0PvnVsO9UW2dzS5sX0vDSWEPSg=s288-c-no',
               ),
             ),
           ],

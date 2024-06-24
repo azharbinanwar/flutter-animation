@@ -46,7 +46,7 @@ class ImageViewer extends StatelessWidget {
                   minHeight: 50.0,
                   minWidth: 50.0,
                   maxWidth: context.width,
-                  duration: const Duration(seconds: 2),
+                  duration: const Duration(seconds: 3),
                   playAfter: const Duration(milliseconds: 3000),
                   child: Stack(
                     children: [

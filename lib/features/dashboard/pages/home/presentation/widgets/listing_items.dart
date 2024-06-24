@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:flutter_animations/core/animations/sliding_animation.dart';
 import 'package:flutter_animations/features/dashboard/pages/home/presentation/widgets/image_viewer.dart';
 import 'package:flutter_animations/gen/assets.gen.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 class ListingItems extends StatelessWidget {
   const ListingItems({super.key});
@@ -23,20 +23,20 @@ class ListingItems extends StatelessWidget {
               mainAxisCellCount: 1,
               child: ImageViewer(
                 path: Assets.images.image1.path,
-                address: 'Lagos Nigeria',
+                address: 'Lahore, Pakistan',
               ),
             ),
             StaggeredGridTile.count(
               crossAxisCellCount: 1,
               mainAxisCellCount: 1,
-              child: ImageViewer(path: Assets.images.image2.path, address: 'Lagos'),
+              child: ImageViewer(path: Assets.images.image2.path, address: 'Lahore'),
             ),
             StaggeredGridTile.count(
               crossAxisCellCount: 1,
               mainAxisCellCount: 1,
               child: ImageViewer(
                 path: Assets.images.image3.path,
-                address: 'Nigeria',
+                address: 'Pakistan',
               ),
             ),
             StaggeredGridTile.count(
@@ -68,7 +68,7 @@ class ListingItems extends StatelessWidget {
               mainAxisCellCount: 1,
               child: ImageViewer(
                 path: Assets.images.image2.path,
-                address: 'Nigeria',
+                address: 'Pakistan',
               ),
             ),
             StaggeredGridTile.count(
@@ -76,7 +76,7 @@ class ListingItems extends StatelessWidget {
               mainAxisCellCount: 1,
               child: ImageViewer(
                 path: Assets.images.image2.path,
-                address: 'Nigeria',
+                address: 'Pakistan',
               ),
             ),
             StaggeredGridTile.count(
@@ -84,7 +84,7 @@ class ListingItems extends StatelessWidget {
               mainAxisCellCount: 1,
               child: ImageViewer(
                 path: Assets.images.image2.path,
-                address: 'Nigeria',
+                address: 'Pakistan',
               ),
             ),
             StaggeredGridTile.count(
@@ -92,7 +92,7 @@ class ListingItems extends StatelessWidget {
               mainAxisCellCount: 2,
               child: ImageViewer(
                 path: Assets.images.image2.path,
-                address: 'Nigeria',
+                address: 'Pakistan',
               ),
             ),
           ],

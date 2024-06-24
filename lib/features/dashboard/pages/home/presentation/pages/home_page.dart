@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
                     child: FadeInAnimation(
                       child: Text.rich(
                         TextSpan(
-                          text: 'Hi, John',
+                          text: 'Hi, Joseph',
                           style: context.bodyLarge.copyWith(fontSize: 24.0, fontWeight: FontWeight.normal),
                           children: [
                             const TextSpan(text: '\n'),
