@@ -39,5 +39,8 @@ flutter build apk --release
 
 Feel free to customize and expand upon this setup as needed for your Flutter project.
 
-https://github.com/azharbinanwar/flutter-animation/assets/35997819/1ed7cb51-80ca-4a39-935f-b06488b4d631
+
+https://github.com/azharbinanwar/flutter-animation/assets/35997819/d3e1356e-085a-4db0-a715-33fdbbe0644b
+
+
 
