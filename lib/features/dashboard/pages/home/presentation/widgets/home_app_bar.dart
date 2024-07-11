@@ -57,7 +57,8 @@ class HomeAppBar extends StatelessWidget {
                   backgroundColor: context.primary.withOpacity(0.3),
                   child: AppImage.svg(Assets.svgs.person, color: context.onPrimary),
                 ),
-                imageUrl: 'https://lh3.googleusercontent.com/a/ACg8ocK8Fz3JefIDQ3E9qR0fIy9XX4dV0PvnVsO9UW2dzS5sX0vDSWEPSg=s288-c-no',
+                imageUrl:
+                    'https://media.licdn.com/dms/image/D4D03AQE8qegsZet0xA/profile-displayphoto-shrink_400_400/0/1705857134922?e=2147483647&v=beta&t=PPIpxsrpqxosIjd0Q_H8pVoI_ltpIPZjuVtGw5tN-6s',
               ),
             ),
           ],

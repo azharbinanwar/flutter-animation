@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations/features/dashboard/pages/slider_up/slider_up_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_animations/features/dashboard/dashboard_page.dart';
 
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: false,
       ),
-      home: const DashboardPage(),
+      home: const SlideUpPage(),
     );
   }
 }
